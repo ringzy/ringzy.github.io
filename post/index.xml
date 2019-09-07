@@ -22,12 +22,19 @@
     </item>
     
     <item>
-      <title>This is Test</title>
+      <title>markdown语法</title>
       <link>https://ringzy.github.io/post/second/</link>
       <pubDate>Wed, 21 Aug 2019 20:06:30 +0800</pubDate>
       
       <guid>https://ringzy.github.io/post/second/</guid>
-      <description>asfas werer</description>
+      <description>一、标题 一级标题  二级标题  三级标题  四级标题    二、字体 三、引用 四、图片 五、超链接 六、列表 - 无序列表 - 有序列表 - 列表嵌套 七、表格 九、代码块  一、标题 一级标题 （#之后有个空格）
+二级标题 三级标题 四级标题 二、字体 要加粗的文字左右分别用两个*号括起来
+三、引用  引用 &amp;gt;这是引用的内容 &amp;gt;&amp;gt;这是引用的内容 &amp;gt;&amp;gt;&amp;gt;这是引用的内容  四、图片   图片alt就是显示在图片下面的文字，相当于对图片内容的解释。
+ 图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加，例如：
+  五、超链接  超链接名 title可加可不加，例如：  简书
+超链接名
+简书
+六、列表 无序列表  语法： 无序列表用 - + * 任何一种都可以，例如： 列表内容 列表内容 列表内容  注意：- + * 跟内容之间都要有一个空格</description>
     </item>
     
   </channel>
