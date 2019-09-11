@@ -7,10 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© Edna West</copyright>
-    <lastBuildDate>Sat, 07 Sep 2019 20:54:52 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Sep 2019 09:39:22 +0800</lastBuildDate>
     
 	<atom:link href="https://ringzy.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VSCode&#43;Markdown——首行缩进、字体、字号、颜色、背景</title>
+      <link>https://ringzy.github.io/post/five/</link>
+      <pubDate>Wed, 11 Sep 2019 09:39:22 +0800</pubDate>
+      
+      <guid>https://ringzy.github.io/post/five/</guid>
+      <description>1.首行缩进 （每一个表示两个空格，连续使用两个即可）
+ 2. ```&amp;amp;emsp;```全角的空格 我习惯在写.md的文件是不进行首行缩进的，通篇都不缩进，但是要有序号、换行等等，这样可以提高文章的可读性。 &amp;lt;font color=##FF0000 size=4 face=&amp;#34;黑体&amp;#34;&amp;gt;**2.字体、字号、颜色**&amp;lt;/font&amp;gt; Markdown是一种可以使用普通文本编辑器编写的标记语言，通过类似HTML的标记语法，它可以使普通文本内容具有一定的格式，但是它本身不支持修改字体、字号与颜色等功能。 那如何修改字体、字号、颜色呢？其实很简单，我们可以利用VSCode内嵌HTML的功能来实现。这里我列举几个常用的字体和颜色供参考。 代码如下：  黑体
+黑体加粗 #可以内嵌Markdown语法，把字体加粗 黑体斜体
+我是微软雅黑
+我是华文彩云
+color=蓝色 size=72 face=&amp;ldquo;黑体&amp;rdquo; color=青色
+color=gray color=red
+color=红色size=6 face=&amp;ldquo;黑体&amp;rdquo; Size：规定文本的尺寸大小。可能的值：从 1 到 7 的数字。浏览器默认值是 3```
+**显示效果如下：** &amp;lt;font face=&amp;quot;黑体&amp;quot;&amp;gt;黑体&amp;lt;/font&amp;gt; &amp;lt;font face=&amp;quot;黑体&amp;quot;&amp;gt;**黑体加粗**&amp;lt;/font&amp;gt; &amp;lt;font face=&amp;quot;黑体&amp;quot;&amp;gt;***黑体斜体***&amp;lt;/font&amp;gt; &amp;lt;font face=&amp;quot;微软雅黑&amp;quot;&amp;gt;我是微软雅黑&amp;lt;/font&amp;gt; &amp;lt;font face=&amp;quot;STCAIYUN&amp;quot;&amp;gt;我是华文彩云&amp;lt;/font&amp;gt; &amp;lt;font color=#0099ff size=7 face=&amp;quot;黑体&amp;quot;&amp;gt;color=蓝色 size=72 face=&amp;quot;黑体&amp;quot;&amp;lt;/font&amp;gt; &amp;lt;font color=#00ffff size=72&amp;gt;color=青色&amp;lt;/font&amp;gt; &amp;lt;font color=gray size=72&amp;gt;color=gray&amp;lt;/font&amp;gt; &amp;lt;font color=red size=72&amp;gt;color=red&amp;lt;/font&amp;gt; &amp;lt;font color=##FF0000 size=6 face=&amp;quot;黑体&amp;quot;&amp;gt;color=红色size=6 face=&amp;quot;黑体&amp;quot;&amp;lt;/font&amp;gt; 具体颜色参考：&amp;lt;a href=&amp;quot;https://blog.csdn.net/testcs_dn/article/details/45719357/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;颜色参考&amp;lt;/a&amp;gt; &amp;lt;font color=##FF0000 size=4 face=&amp;quot;黑体&amp;quot;&amp;gt;**3.</description>
+    </item>
     
     <item>
       <title>实用贴|如何利用Visual Studio Code为Markdown文件自动生成目录？</title>
@@ -36,13 +53,16 @@
     </item>
     
     <item>
-      <title>markdown语法</title>
+      <title>Markdown语法</title>
       <link>https://ringzy.github.io/post/second/</link>
       <pubDate>Wed, 21 Aug 2019 20:06:30 +0800</pubDate>
       
       <guid>https://ringzy.github.io/post/second/</guid>
       <description>一、标题 一级标题  二级标题  三级标题  四级标题    二、字体 三、引用 四、图片 五、超链接 六、列表 - 无序列表 - 有序列表 - 列表嵌套 七、表格 九、代码块  一、标题 一级标题 （#之后有个空格）
-二级标题 三级标题 四级标题 二、字体 要加粗的文字左右分别用两个*号括起来
+二级标题 三级标题 四级标题 二、字体 加粗（文字左右两边各**）
+*斜体*（文字左右两边各一个*号）
+斜体加粗（文字左右两边各***）
+删除线（文字左右两边各~~）
 三、引用  引用 &amp;gt;这是引用的内容 &amp;gt;&amp;gt;这是引用的内容 &amp;gt;&amp;gt;&amp;gt;这是引用的内容  四、图片   图片alt就是显示在图片下面的文字，相当于对图片内容的解释。
  图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加，例如：
   五、超链接  超链接名 title可加可不加，例如：  简书
