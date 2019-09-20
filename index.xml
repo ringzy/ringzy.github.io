@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© Edna West</copyright>
-    <lastBuildDate>Wed, 11 Sep 2019 09:39:22 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2019 17:18:10 +0800</lastBuildDate>
     
 	<atom:link href="https://ringzy.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Preparing Your Oral Presentation</title>
+      <link>https://ringzy.github.io/post/presentation/</link>
+      <pubDate>Fri, 20 Sep 2019 17:18:10 +0800</pubDate>
+      
+      <guid>https://ringzy.github.io/post/presentation/</guid>
+      <description>1. Things to think about before giving your presentation. e.g.
+ Do I want to inform my audience?
+ Do I want to inspire them to think about my research?
+ Do I want to convince them of a particular point of view?
+  2. Know the differences between oral and written communication e.g.
+ The K.I.S.S. method (keep it simple &amp;amp; stupid).
+ Repeat key insights: tell them what you&amp;rsquo;re going to tell them (Forecast), tell them, and then tell them what you just told them (Summarize).</description>
+    </item>
     
     <item>
       <title>VSCode&#43;Markdown——首行缩进、字体、字号、颜色、背景</title>
